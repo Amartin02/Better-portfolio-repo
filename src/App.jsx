@@ -1,19 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Header from "./components/Header";
-import Aboutme from "./components/Aboutme";
-import Resume from "./components/Resume";
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from "react-router-dom";
+import NavTabs from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <Header />
-      <Aboutme />
-      <Resume />
+      <NavTabs />
+      <main className="mx-3">
+        <Outlet />
+      </main>
     </>
   );
 }
