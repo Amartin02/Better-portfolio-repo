@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  background-color: aqua;
+  border: 10px solid darkblue;
+  height: 334px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
