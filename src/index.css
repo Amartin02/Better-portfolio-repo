@@ -5,4 +5,53 @@
 }
 body {
   height: 100vh;
+  background-color: aquamarine;
+}
+.portPhoto {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 250px;
+
+  width: 150px;
+}
+.portPhoto img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 300px;
+}
+.photoContainer li {
+  list-style: none;
+  width: 500px;
+  height: 300px;
+}
+.photoContainer {
+  justify-content: space-around;
+  display: flex;
+  border: solid red;
+  flex-wrap: wrap;
+}
+.photoContainer P {
+  margin-bottom: 30px;
+}
+.nav-item {
+  justify-content: space-around;
+  list-style: none;
+  padding: 20px;
+}
+.nav-tabs {
+  display: flex;
+}
+.portEntry {
+  text-align: center;
+  margin: 0 auto;
+}
+.aboutMe-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
 }
