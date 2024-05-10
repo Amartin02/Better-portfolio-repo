@@ -3,12 +3,13 @@ import Taskboard from "../assets/images/Taskboard.png";
 import blog from "../assets/images/blog2.png";
 import jate from "../assets/images/JATEimage.png";
 
-function Portfolio() {
+function Projects() {
   return (
     <section>
       <p className="portEntry">
         This is my Portfolio and this is where you can see projects i have
-        worked one or made.
+        worked one or made. Click the image to be taken to the project or, the
+        link in the comment below for the actual repo.
       </p>
 
       <ul className="photoContainer">
@@ -48,4 +49,4 @@ function Portfolio() {
     </section>
   );
 }
-export default Portfolio;
+export default Projects;

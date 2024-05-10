@@ -5,7 +5,7 @@
 }
 body {
   height: 100vh;
-  background-color: aquamarine;
+  background-color: #6b9797;
 }
 .portPhoto {
   margin-top: 10px;
@@ -32,7 +32,6 @@ body {
 .photoContainer {
   justify-content: space-around;
   display: flex;
-  border: solid red;
   flex-wrap: wrap;
 }
 .photoContainer P {
@@ -42,16 +41,33 @@ body {
   justify-content: space-around;
   list-style: none;
   padding: 20px;
+  text-decoration: none;
 }
 .nav-tabs {
   display: flex;
+  background-color: #6b6e6f;
 }
 .portEntry {
   text-align: center;
   margin: 0 auto;
+  font-size: 25px;
 }
 .aboutMe-container {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.aboutMe-container p {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.aboutMe-container img {
+  width: 500px;
+  height: 300px;
+}
+.anchor-item img {
+  width: 100px;
+  height: 50px;
 }
