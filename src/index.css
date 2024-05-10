@@ -3,7 +3,13 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  min-height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
   background-color: #6b9797;
 }
 .portPhoto {
@@ -73,6 +79,8 @@ body {
   display: flex;
   line-height: 35px;
   flex-direction: column-reverse;
+  word-wrap: break-word;
+  width: 1000px;
 }
 .aboutMe-container img {
   width: 500px;
@@ -85,16 +93,6 @@ body {
 /*this is for resume*/ /*this is for resume*/ /*this is for resume*/ /*this is for resume*/ /*this is for resume*/ /*this is for resume*/
 html {
   height: 100%;
-}
-
-body {
-  min-height: 100%;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  color: #222;
-  font-size: 14px;
-  line-height: 26px;
-  padding-bottom: 50px;
 }
 
 .container {
@@ -230,7 +228,7 @@ body {
     }
   }
 }
-/*this is contact*/
+/*this is contact*/ /*this is contact*/ /*this is contact*/ /*this is contact*/ /*this is contact*/ /*this is contact*/
 .container {
   max-width: 600px;
   margin: 50px auto;
