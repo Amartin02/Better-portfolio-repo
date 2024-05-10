@@ -273,3 +273,14 @@ button:hover {
     width: 50%;
   }
 }
+/*footer*/
+.footer-Tabs img {
+  width: 80px;
+  height: 80px;
+  padding: 3px;
+}
+.footer-Tabs {
+  margin-top: 80px;
+  padding: 80px;
+  text-align: center;
+}
