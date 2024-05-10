@@ -1,7 +1,9 @@
-import weatherapp from "../assets/images/weatherapp.png";
+import recipeApp from "../assets/images/recipeApp.png";
 import Taskboard from "../assets/images/Taskboard.png";
 import blog from "../assets/images/blog2.png";
 import jate from "../assets/images/JATEimage.png";
+import spinMe from "../assets/images/spinMe.png";
+import svgLogo from "../assets/images/svgLogo.png";
 // use anchors with buttons inside. not wrapped around both buttons //
 function Projects() {
   return (
@@ -15,36 +17,86 @@ function Projects() {
       <ul className="photoContainer">
         <li>
           <a className="project">
-            <img src={weatherapp} alt="weatherApp" />
+            <img src={recipeApp} alt="recipeApp" />
           </a>
           <div>
-            <a href="https://github.com/Amartin02/my-blog-Mockup">
-              <button>Github Repo</button>
+            <a href="https://github.com/oh-shift/recipe-sifting-repo">
+              <button className="proButton">Github Repo</button>
             </a>
-            <button></button>
+            <a href="https://oh-shift.github.io/recipe-sifting-repo/">
+              <button className="proButton">Deployed Site</button>
+            </a>
           </div>
         </li>
+
         <li>
           <a className="project">
             <img src={Taskboard} alt="Taskboard" />
           </a>
-          <p>Draggable Taskboard</p>
+          <div>
+            <a href="https://github.com/Amartin02/Task-board-repo">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://amartin02.github.io/Task-board-repo/">
+              <button className="proButton">Deployed Site</button>
+            </a>
+          </div>
         </li>
+
         <li>
           <a className="project">
-            <img
-              src={blog}
-              alt="Blog"
-              href="https://github.com/Amartin02/my-blog-Mockup"
-            />
+            <img src={spinMe} alt="recordApp" />
           </a>
-          <p>Blog using local storage</p>
+          <div>
+            <a href="https://github.com/Init-To-Win/spin-me-round">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://spin-me-round.onrender.com">
+              <button className="proButton">Deployed Site</button>
+            </a>
+          </div>
         </li>
+
+        <li>
+          <a className="project">
+            <img src={svgLogo} alt="" />
+          </a>
+          <div>
+            <a href="https://github.com/Amartin02/SVG-Logo-Maker">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://youtu.be/qVo6KzkOvhY">
+              <button className="proButton">Youtube Demo</button>
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <a className="project">
+            <img src={blog} alt="blog" />
+          </a>
+          <div>
+            <a href="https://github.com/Amartin02/my-blog-Mockup">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://amartin02.github.io/my-blog-Mockup/">
+              <button className="proButton">Deployed Site</button>
+            </a>
+          </div>
+        </li>
+
         <li>
           <a className="project">
             <img src={jate} alt="Text Editor PWA" />
           </a>
-          <p>Text Editor PWA</p>
+          <div>
+            <a href="https://github.com/Amartin02/PWA-text-editor">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://pwa-text-editor-pgek.onrender.com/">
+              <button className="proButton">Deployed Site</button>
+            </a>
+          </div>
         </li>
       </ul>
     </section>
