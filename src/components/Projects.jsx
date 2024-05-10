@@ -15,7 +15,7 @@ function Projects() {
       <ul className="photoContainer">
         <li>
           {" "}
-          <a className="portPhoto">
+          <a className="project">
             {" "}
             <img src={weatherapp} alt="weatherApp" />{" "}
           </a>{" "}
@@ -23,7 +23,7 @@ function Projects() {
         </li>
         <li>
           {" "}
-          <a className="portPhoto">
+          <a className="project">
             {" "}
             <img src={Taskboard} alt="Taskboard" />{" "}
           </a>{" "}
@@ -31,7 +31,7 @@ function Projects() {
         </li>
         <li>
           {" "}
-          <a className="portPhoto">
+          <a className="project">
             {" "}
             <img src={blog} alt="Blog" />{" "}
           </a>{" "}
@@ -39,7 +39,7 @@ function Projects() {
         </li>
         <li>
           {" "}
-          <a className="portPhoto">
+          <a className="project">
             {" "}
             <img src={jate} alt="Text Editor PWA" />{" "}
           </a>{" "}

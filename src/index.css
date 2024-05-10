@@ -1,6 +1,5 @@
 * {
   margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
 }
 body {
@@ -18,11 +17,12 @@ body {
 
   width: 150px;
 }
-.portPhoto img {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.project img {
+  margin-top: 50px;
   width: 500px;
   height: 300px;
+  border-spacing: 10px;
+  padding-top: 70px;
 }
 .photoContainer li {
   list-style: none;
@@ -36,6 +36,9 @@ body {
 }
 .photoContainer P {
   margin-bottom: 30px;
+  padding: 20px;
+  border: solid black;
+  text-align: center;
 }
 .nav-item {
   justify-content: space-around;
