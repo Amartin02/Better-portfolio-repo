@@ -1,6 +1,6 @@
 function Resume() {
   return (
-    <div>
+    <div onclick="window.print();return false;">
       <div class="container">
         <div class="header">
           <div class="full-name">
@@ -20,9 +20,9 @@ function Resume() {
             <span class="desc">
               I am a beginner front and back-end developer that just graduated a
               3 month course to get me to a jr dev level. In the class they had
-              us write html, css, and js, as well as learning React.js, Vite,
-              Express, and much more. I'm motivated to start my career in this
-              field and see what it's like. I work well in a team and would
+              us write HTML, CSS, and JavaScript, as well as learning React.js,
+              Vite, Express, and much more. I'm motivated to start my career in
+              this field and see what it's like. I work well in a team and would
               prefer a remote job.
             </span>
           </div>
@@ -138,9 +138,9 @@ function Resume() {
           <div class="section">
             <div class="section__title">Interests</div>
             <div class="section__list">
-              <div class="section__list-item">
+              <footer class="section__list-item">
                 Wrestling, programming, Video games, Piano, and Anime
-              </div>
+              </footer>
             </div>
           </div>
         </div>

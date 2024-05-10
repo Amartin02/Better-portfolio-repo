@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
-  //   const currentPage = useLocation().pathname;
-  const currentPage = "";
+  const currentPage = useLocation().pathname;
+  // const currentPage = "";
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">

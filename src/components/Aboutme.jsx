@@ -6,11 +6,13 @@ function Aboutme() {
       <p>
         My name is Anthony Martin. Here you can see my upcoming projects and my
         contact information in case you'd like to work with me. In the past i
-        worked in HVAC for years but got injured, now i've been decided in a
-        career switch. I enjoy the backend and have learned alot during a three
-        month coding bootcamp learning to use all kinds of things i never
-        thought i'd learn. To see the projects you can head to portfolio and you
-        can see them all.
+        worked in HVAC for years but now i've been decided in a career change.
+        In HVAC I quickly moved from an apprentice to lead installer where i
+        managed a crew of installers. I enjoy the backend and have learned alot
+        during a three month coding bootcamp. Please see resume for further
+        details. I plan to continue my education in this field and look forward
+        to on the job training as well. To see the projects you can head to
+        Projects tab and you can see them all.
       </p>
 
       <img class="myPhoto" src={photo}></img>

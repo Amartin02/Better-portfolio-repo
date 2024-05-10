@@ -33,9 +33,15 @@ function Projects() {
           {" "}
           <a className="project">
             {" "}
-            <img src={blog} alt="Blog" />{" "}
+            <img
+              src={blog}
+              alt="Blog"
+              to="https://github.com/Amartin02/my-blog-Mockup"
+            />{" "}
           </a>{" "}
-          <p>Blog using local storage</p>{" "}
+          <p to="https://github.com/Amartin02/my-blog-Mockup">
+            Blog using local storage
+          </p>{" "}
         </li>
         <li>
           {" "}
