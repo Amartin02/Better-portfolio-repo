@@ -5,7 +5,7 @@ function Resume() {
         <div class="header">
           <div class="full-name">
             <span class="first-name">Anthony</span>
-            <span class="last-name">Martin</span>
+            <span class="last-name"> Martin</span>
           </div>
           <div class="contact-info">
             <span class="email">Email: </span>
@@ -17,14 +17,14 @@ function Resume() {
 
           <div class="about">
             <span class="position">Front and Back-End Developer </span>
-            <span class="desc">
+            <p class="desc">
               I am a beginner front and back-end developer that just graduated a
               3 month course to get me to a jr dev level. In the class they had
               us write HTML, CSS, and JavaScript, as well as learning React.js,
               Vite, Express, and much more. I'm motivated to start my career in
               this field and see what it's like. I work well in a team and would
               prefer a remote job.
-            </span>
+            </p>
           </div>
         </div>
         <div class="details">
@@ -67,7 +67,7 @@ function Resume() {
             <div class="section__list">
               <div class="section__list-item">
                 <div class="name">Spin-Me-Round</div>
-                <div class="text">
+                <p class="text">
                   This project was built in order to provide a marketplace for a
                   user to explore albums, artists, and songs; and create a
                   personalized collection of music. For successful completion,
@@ -96,10 +96,10 @@ function Resume() {
                   users personal collection of favorites, an opportunity to
                   login/logout of the site, and links to add an artist or album
                   to their collection.
-                </div>
+                </p>
                 <div class="section__list-item">
                   <div class="name">Recipe-Sifting-Repo</div>
-                  <div class="text">
+                  <p class="text">
                     Everyone loves a delicious meal and cocktail to have on any
                     occasion. From a stressful Thursday evening of work to a
                     relaxing Sunday brunch, we hope to make your cooking and
@@ -126,7 +126,7 @@ function Resume() {
                     design that would allow the user to see the recipes from the
                     main page without overwhelming their experience, and
                     deciding how best to leverage the APIs
-                  </div>
+                  </p>
                 </div>
                 <div class="section__list-item">
                   <div class="name">Code-Blooded</div>
