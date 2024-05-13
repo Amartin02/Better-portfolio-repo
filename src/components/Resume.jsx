@@ -134,7 +134,22 @@ function Resume() {
                 </div>
                 <div className="section__list-item">
                   <div className="name">Code-Blooded</div>
-                  <div className="text">N/A</div>
+                  <div className="text">
+                    This project represents an interactive MERN Stack
+                    Single-Page Application designed to showcase collaborative
+                    skills and coding abilities in the context of a scalable,
+                    user-focused platform. It fulfills the requirements of a
+                    real-world problem-solving application using VS Code editor
+                    where Apollo client, React-Bootstrap, graphql, React, and
+                    Vitest were used to synthesize the framework, database, and
+                    libraries used. Once complete, the project was uploaded to a
+                    Github repository. Our team chose to create an eCommerce
+                    website that allows users to select from various items to
+                    purchase, place them in a cart, and the proceed to finalize
+                    their order. In order to navigate to the cart the user must
+                    be securely logged in. The completed application will
+                    illustrate to employers the teams collaborative skills
+                  </div>
                 </div>
               </div>
             </div>
