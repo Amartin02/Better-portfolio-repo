@@ -293,10 +293,7 @@ button:hover {
 }
 /*contact button*/
 .animatedBorder {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  margin: 50px;
 }
 .modal-content {
   display: flex;
