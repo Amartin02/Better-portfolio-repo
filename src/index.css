@@ -291,3 +291,14 @@ button:hover {
 .footer-Tabs p {
   margin-top: 35px;
 }
+/*contact button*/
+.animatedBorder {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}

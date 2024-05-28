@@ -11,7 +11,7 @@ function App() {
       <NavTabs />
       <main className="mx-3">
         <Outlet />
-        {/* <ModalForm/> */}
+        <ModalForm />
       </main>
       <FooterTabs />
     </>
