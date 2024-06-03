@@ -6,8 +6,8 @@ function Aboutme() {
       <p>
         My name is Anthony Martin. Here you can see my upcoming projects and my
         contact information in case you'd like to work with me. In the past i
-        worked in HVAC for years but now i've been decided in a career change.
-        In HVAC I quickly moved from an apprentice to lead installer where i
+        worked in HVAC for years but now i've decided in a career change. In
+        HVAC I quickly moved from an apprentice to lead installer where i
         managed a crew of installers. I enjoy the backend and have learned alot
         during a three month coding bootcamp. Please see resume for further
         details. I plan to continue my education in this field and look forward
