@@ -4,6 +4,11 @@ import blog from "../assets/images/blog2.png";
 import jate from "../assets/images/JATEimage.png";
 import spinMe from "../assets/images/spinMe.png";
 import svgLogo from "../assets/images/svgLogo.png";
+import mongo from "../assets/images/mongo.png";
+import noteTaking from "../assets/images/noteTaking.png";
+import eCommerce from "../assets/images/eCommerce.png";
+import readMe from "../assets/images/readMe.png";
+
 // use anchors with buttons inside. not wrapped around both buttons //
 function Projects() {
   return (
@@ -95,6 +100,62 @@ function Projects() {
             </a>
             <a href="https://pwa-text-editor-pgek.onrender.com/">
               <button className="proButton">Deployed Site</button>
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <a className="project">
+            <img src={readMe} alt="readMeGenerator" />
+          </a>
+          <div>
+            <a href="https://github.com/Amartin02/README-generator">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://youtu.be/--h97lOEXG4">
+              <button className="proButton">Youtube Demo</button>
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <a className="project">
+            <img src={eCommerce} alt="eCommerce" />
+          </a>
+          <div>
+            <a href="https://github.com/Amartin02/Back-End-Ecommerce">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://youtu.be/tIQtSxeZjD4">
+              <button className="proButton">Youtube Demo</button>
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <a className="project">
+            <img src={noteTaking} alt="noteTakingApp" />
+          </a>
+          <div>
+            <a href="https://github.com/Amartin02/Note-taking-repo">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://note-taking-repo.onrender.com">
+              <button className="proButton">Deployed Site</button>
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <a className="project">
+            <img src={mongo} alt="mongoNetwork" />
+          </a>
+          <div>
+            <a href="https://github.com/Amartin02/Mongo-Network-API">
+              <button className="proButton">Github Repo</button>
+            </a>
+            <a href="https://youtu.be/MoLHNxDLFZo">
+              <button className="proButton">Youtube Demo</button>
             </a>
           </div>
         </li>
